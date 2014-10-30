@@ -1,0 +1,12 @@
+*/bin/
+*/csx/
+*/rcf/**
+
+*/obj/
+*.azurePubxml
+Cloud.cscfg
+*.Cloud.cscfg
+*.user
+
+*.wadcfg
+*.suo

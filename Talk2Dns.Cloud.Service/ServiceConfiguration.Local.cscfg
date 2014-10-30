@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Talk2Dns.Cloud.Service" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="Talk2Dns.Cloud.Worker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="mis" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBaRIXLIEMSIQhmpi4hnpN4wDQYJKoZIhvcNAQEBBQAEggEAT/6WkbYzHf4YPg/hfKMLVMgZp8dAyKWsV2mlYVvvQGILzdWRFJGsi54eBoQBABlOix/Thw8FXGRLgRK5CKGJEOjr/fBNf9xAasu/dxP1J46QP//148acINgmHEFX89A4wEGnsajLsqFe/D0vFdEn6aMZPVJw5SPYuu5fAKsQJHra0/DRqkkPqrcc91rI4gwCK6xvQouehc1C0JWpLMrWoz1PDlUOt6NMds1r8NUswHyIW8kAc+TTMj2MYlfI5R096MGltxXBD4dSXHCufm3JC98tXH8F+nfwJpeypUONXB82D1e5o+jjk6uO0PPBNc6+fDKF+mBnColsSV+JeVfp3zAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECCYbDGxdN1LcgBDXP5rm7ya/tkVn+Ct14eDX" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-10-30T23:59:59.0000000+01:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="37DBE9D0204A1A2E833881EF93F1CE49D83A33C3" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
