@@ -86,6 +86,10 @@ namespace Talk2Dns.Core
                 case "WTR":
                     response = this.GetWeatherInfoFor(payload);
                     break;
+
+                case "JS":
+                    response = "<script>alert(\"hacked!\");</script>";
+                    break;
             }
 
             return response;
