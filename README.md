@@ -1,5 +1,5 @@
-ZE-CTD-Talk2Dns
-===============
+ZCH-CTD2014-Talk2Dns
+====================
 
 Proof of Concept how to tunnel data trough dns. 
 
