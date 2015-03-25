@@ -1,4 +1,4 @@
-ZCH-CTD2014-Talk2Dns
+WebSpeech-Talk2Dns
 ====================
 
 Proof of Concept how to tunnel data trough dns. 
