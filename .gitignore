@@ -10,3 +10,6 @@ Cloud.cscfg
 
 *.wadcfg
 *.suo
+
+packages
+Backup

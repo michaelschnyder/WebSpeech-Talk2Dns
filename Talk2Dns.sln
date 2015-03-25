@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talk2Dns.Core", "Talk2Dns.Core\Talk2Dns.Core.csproj", "{E88C400F-6F2A-4504-9270-17B170DE5F70}"
 EndProject
