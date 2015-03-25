@@ -15,6 +15,8 @@ Open `nslookup` or any similar tool and set the request type to `txt`
 
 	> set type=txt
 
+Add a dot "." to end of the "query"-domain, in case you have a domain postfix defined.
+
 ## Supported Commands
 
 ### Time
